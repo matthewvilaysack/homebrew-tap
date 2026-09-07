@@ -1,28 +1,28 @@
 class Hotword < Formula
   desc "Phrase-triggered and session-start workflows for terminal coding agents"
   homepage "https://hotword-dusky.vercel.app"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/matthewvilaysack/hotword/releases/download/v0.1.0/hotword-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "967fe9bae654f49b40792236d417b2a08b7a12a3e1c0553f927bbc5ecac2fe94"
+      url "https://github.com/matthewvilaysack/hotword/releases/download/v0.2.0/hotword-0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "7544dcc0f36e6bf265a07aa442537069068703d627b2ac3e0ea3ceea6697b398"
     end
     on_intel do
-      url "https://github.com/matthewvilaysack/hotword/releases/download/v0.1.0/hotword-0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "402b5cbe4865f47b47aea3b4b97731090f04bdc74aed08ac46708b30d02147d2"
+      url "https://github.com/matthewvilaysack/hotword/releases/download/v0.2.0/hotword-0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "22d1633bc7e0f183357cf87f5aedafdbd45f611e648b1c419af057e2b7247c4a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/matthewvilaysack/hotword/releases/download/v0.1.0/hotword-0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "26423232adc49aa6731b94cd10654969b3dc8dc428bed6e4ad278b34a6bda740"
+      url "https://github.com/matthewvilaysack/hotword/releases/download/v0.2.0/hotword-0.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "1d6952d1ea0f0ec40056108c25dbfcd0f4925f069316fdb4b39a7d4ce7962d9a"
     end
     on_intel do
-      url "https://github.com/matthewvilaysack/hotword/releases/download/v0.1.0/hotword-0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "5899188fee6136112f5b40341d7614b9eda35f32dbe51c9b97842401334a6ed2"
+      url "https://github.com/matthewvilaysack/hotword/releases/download/v0.2.0/hotword-0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "7743a9969da337b17c917855e4be3122fd7a1d6c7fd73d3b20f158b4f0f42842"
     end
   end
 
